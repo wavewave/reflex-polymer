@@ -18,11 +18,16 @@ with haskellPackages;
   mtl
   text  
   reflex
-  reflex-dom
+  bimap
+  data-default
+  dependent-sum-template
+  #reflex-polymer
   reflex-transformers
 ] else []) ++ (if platform == "ghc" then [
   ##############################################################################
   # Add ghc-only packages here                                                 #
   ##############################################################################
 
-] else []) ++ builtins.concatLists (map (x: x.override { mkDerivation = drv: drv.buildDepends; }) [ reflex reflex-dom ])
+] else []) ++ builtins.concatLists (map (x: x.override { mkDerivation = drv: drv.buildDepends; }) [ reflex ])
+
+# reflex-polymer ])

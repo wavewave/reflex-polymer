@@ -32,7 +32,7 @@ let overrideCabal = pkg: f: if pkg == null then null else lib.overrideCabal pkg 
         # Reflex packages
         ########################################################################
         reflex = self.callPackage ./reflex {};
-        reflex-dom = self.callPackage ./reflex-dom {};
+        #reflex-polymer = self.callPackage ../default.nix {};
         reflex-transformers = self.callPackage
           ({ mkDerivation, fetchgit, base, containers, lens, mtl, reflex, semigroups
            , stateWriter, stdenv, transformers

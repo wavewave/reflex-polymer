@@ -6,8 +6,8 @@
 }:
 
 mkDerivation {
-  pname = "reflex-dom";
-  version = "0.3";
+  pname = "reflex-polymer";
+  version = "0.1";
   src = builtins.filterSource (path: type: baseNameOf path != ".git") ./.;
   buildDepends = [
     reflex
