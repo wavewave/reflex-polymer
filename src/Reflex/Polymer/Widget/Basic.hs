@@ -1,9 +1,9 @@
 {-# LANGUAGE ScopedTypeVariables, LambdaCase, ConstraintKinds, TypeFamilies, FlexibleContexts, MultiParamTypeClasses, FlexibleInstances, RecursiveDo, GADTs, DataKinds, RankNTypes, TemplateHaskell #-}
 
-module Reflex.Dom.Widget.Basic where
+module Reflex.Polymer.Widget.Basic where
 
-import Reflex.Dom.Class
-import Reflex.Dom.Internal.Foreign ()
+import Reflex.Polymer.Class
+import Reflex.Polymer.Internal.Foreign ()
 
 import Prelude hiding (mapM, mapM_, sequence, sequence_)
 import Reflex

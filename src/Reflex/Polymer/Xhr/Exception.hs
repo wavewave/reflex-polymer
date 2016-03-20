@@ -1,6 +1,6 @@
 {-# LANGUAGE DeriveDataTypeable #-}
 
-module Reflex.Dom.Xhr.Exception where
+module Reflex.Polymer.Xhr.Exception where
 
 import Data.Typeable
 import Control.Exception (Exception(..))

@@ -1,6 +1,6 @@
 {-# LANGUAGE QuasiQuotes, ForeignFunctionInterface #-}
 
-module Reflex.Dom.Xhr.Foreign where
+module Reflex.Polymer.Xhr.Foreign where
 
 import Control.Monad
 import qualified Data.Text as T
@@ -11,13 +11,13 @@ import Graphics.UI.Gtk.WebKit.JavaScriptCore.JSBase
 import Graphics.UI.Gtk.WebKit.JavaScriptCore.JSObjectRef
 import Graphics.UI.Gtk.WebKit.JavaScriptCore.JSStringRef
 import Graphics.UI.Gtk.WebKit.JavaScriptCore.JSValueRef
-import Reflex.Dom.Xhr.ResponseType
-import Reflex.Dom.Xhr.Exception
+import Reflex.Polymer.Xhr.ResponseType
+import Reflex.Polymer.Xhr.Exception
 import Control.Concurrent.MVar
 import Control.Exception.Base
 import Graphics.UI.Gtk.WebKit.Types hiding (Text)
 
-import Reflex.Dom.Internal.Foreign
+import Reflex.Polymer.Internal.Foreign
 
 import Text.RawString.QQ
 

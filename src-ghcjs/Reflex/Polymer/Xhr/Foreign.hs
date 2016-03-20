@@ -1,9 +1,9 @@
 {-# LANGUAGE ForeignFunctionInterface, JavaScriptFFI, OverloadedStrings #-}
 
-module Reflex.Dom.Xhr.Foreign (
+module Reflex.Polymer.Xhr.Foreign (
     XMLHttpRequest
   , XMLHttpRequestResponseType(..)
-  , module Reflex.Dom.Xhr.Foreign
+  , module Reflex.Polymer.Xhr.Foreign
 ) where
 
 import Prelude hiding (error)
@@ -15,9 +15,9 @@ import GHCJS.DOM.XMLHttpRequest
 import Data.Maybe (fromMaybe)
 import GHCJS.DOM.EventTarget (dispatchEvent)
 import GHCJS.DOM.EventM (EventM, on)
-import Reflex.Dom.Internal.Foreign
-import Reflex.Dom.Xhr.Exception
-import Reflex.Dom.Xhr.ResponseType
+import Reflex.Polymer.Internal.Foreign
+import Reflex.Polymer.Xhr.Exception
+import Reflex.Polymer.Xhr.ResponseType
 import Control.Exception (catch, throwIO)
 
 prepareWebView :: WebView -> IO ()

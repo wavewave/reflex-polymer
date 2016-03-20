@@ -63,24 +63,24 @@ library
       build-depends: unix == 2.7.*
 
   exposed-modules:
-    Reflex.Dom
-    Reflex.Dom.Class
-    Reflex.Dom.Internal
-    Reflex.Dom.Time
-    Reflex.Dom.WebSocket
-    Reflex.Dom.Widget
-    Reflex.Dom.Widget.Basic
-    Reflex.Dom.Widget.Input
-    Reflex.Dom.Widget.Lazy
-    Reflex.Dom.Widget.Resize
-    Reflex.Dom.Xhr
-    Reflex.Dom.Location
+    Reflex.Polymer
+    Reflex.Polymer.Class
+    Reflex.Polymer.Internal
+    Reflex.Polymer.Time
+    Reflex.Polymer.WebSocket
+    Reflex.Polymer.Widget
+    Reflex.Polymer.Widget.Basic
+    Reflex.Polymer.Widget.Input
+    Reflex.Polymer.Widget.Lazy
+    Reflex.Polymer.Widget.Resize
+    Reflex.Polymer.Xhr
+    Reflex.Polymer.Location
   other-modules:
-    Reflex.Dom.Internal.Foreign
-    Reflex.Dom.WebSocket.Foreign
-    Reflex.Dom.Xhr.Foreign
-    Reflex.Dom.Xhr.ResponseType
-    Reflex.Dom.Xhr.Exception
+    Reflex.Polymer.Internal.Foreign
+    Reflex.Polymer.WebSocket.Foreign
+    Reflex.Polymer.Xhr.Foreign
+    Reflex.Polymer.Xhr.ResponseType
+    Reflex.Polymer.Xhr.Exception
 
   other-extensions: TemplateHaskell
   ghc-options: -Wall -fwarn-tabs -funbox-strict-fields -O2 -ferror-spans

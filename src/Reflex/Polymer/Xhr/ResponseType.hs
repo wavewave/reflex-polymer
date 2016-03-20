@@ -1,6 +1,6 @@
 {-# LANGUAGE DeriveDataTypeable #-}
 
-module Reflex.Dom.Xhr.ResponseType where
+module Reflex.Polymer.Xhr.ResponseType where
 
 import Data.Typeable
 import Data.Text (Text)

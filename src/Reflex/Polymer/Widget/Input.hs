@@ -1,10 +1,10 @@
 {-# LANGUAGE ConstraintKinds, TypeFamilies, FlexibleContexts, DataKinds, GADTs, ScopedTypeVariables, FlexibleInstances, RecursiveDo, TemplateHaskell #-}
-module Reflex.Dom.Widget.Input (module Reflex.Dom.Widget.Input, def, (&), (.~)) where
+module Reflex.Polymer.Widget.Input (module Reflex.Polymer.Widget.Input, def, (&), (.~)) where
 
 import Prelude
 
-import Reflex.Dom.Class
-import Reflex.Dom.Widget.Basic
+import Reflex.Polymer.Class
+import Reflex.Polymer.Widget.Basic
 
 import Reflex
 import Reflex.Host.Class

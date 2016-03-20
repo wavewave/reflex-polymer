@@ -1,13 +1,13 @@
 {-# LANGUAGE ForeignFunctionInterface, JavaScriptFFI, CPP, TemplateHaskell, NoMonomorphismRestriction, EmptyDataDecls, RankNTypes, GADTs, RecursiveDo, ScopedTypeVariables, FlexibleInstances, MultiParamTypeClasses, TypeFamilies, FlexibleContexts, DeriveDataTypeable, GeneralizedNewtypeDeriving, StandaloneDeriving, ConstraintKinds, UndecidableInstances, PolyKinds, AllowAmbiguousTypes #-}
 
-module Reflex.Dom.WebSocket where
+module Reflex.Polymer.WebSocket where
 
 import Prelude hiding (div, span, mapM, mapM_, concat, concatMap, all, sequence)
 
 import Reflex
 import Reflex.Host.Class
-import Reflex.Dom.Class
-import Reflex.Dom.WebSocket.Foreign
+import Reflex.Polymer.Class
+import Reflex.Polymer.WebSocket.Foreign
 
 import Control.Concurrent
 import Control.Concurrent.STM

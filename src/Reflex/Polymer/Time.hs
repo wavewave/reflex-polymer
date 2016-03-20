@@ -1,8 +1,8 @@
 {-# LANGUAGE DeriveDataTypeable, ScopedTypeVariables #-}
-module Reflex.Dom.Time where
+module Reflex.Polymer.Time where
 
 import Reflex
-import Reflex.Dom.Class
+import Reflex.Polymer.Class
 
 import Control.Concurrent
 import Control.Monad

@@ -1,5 +1,5 @@
 {-# LANGUAGE CPP, ForeignFunctionInterface, ScopedTypeVariables, LambdaCase #-}
-module Reflex.Dom.Internal.Foreign where
+module Reflex.Polymer.Internal.Foreign where
 
 import Control.Concurrent
 import Control.Exception (bracket)

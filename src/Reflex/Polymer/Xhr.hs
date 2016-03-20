@@ -1,6 +1,6 @@
 {-# LANGUAGE DeriveDataTypeable #-}
 
-module Reflex.Dom.Xhr
+module Reflex.Polymer.Xhr
   ( XMLHttpRequest
   , XhrRequest(..)
   , XhrRequestConfig(..)
@@ -53,10 +53,10 @@ import Data.Text (Text)
 import Data.Text.Encoding
 import Data.Traversable
 import Reflex
-import Reflex.Dom.Class
-import Reflex.Dom.Xhr.Exception
-import Reflex.Dom.Xhr.Foreign
-import Reflex.Dom.Xhr.ResponseType
+import Reflex.Polymer.Class
+import Reflex.Polymer.Xhr.Exception
+import Reflex.Polymer.Xhr.Foreign
+import Reflex.Polymer.Xhr.ResponseType
 import Data.Typeable
 
 data XhrRequest

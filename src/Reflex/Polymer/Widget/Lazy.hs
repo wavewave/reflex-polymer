@@ -1,10 +1,10 @@
 {-# LANGUAGE RecursiveDo, ScopedTypeVariables #-}
 
-module Reflex.Dom.Widget.Lazy where
+module Reflex.Polymer.Widget.Lazy where
 
 import Reflex
-import Reflex.Dom.Class
-import Reflex.Dom.Widget.Basic
+import Reflex.Polymer.Class
+import Reflex.Polymer.Widget.Basic
 
 import Control.Monad
 import Control.Monad.IO.Class

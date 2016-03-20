@@ -1,10 +1,10 @@
 {-# LANGUAGE TypeFamilies, FlexibleContexts, FlexibleInstances, MultiParamTypeClasses, RankNTypes, GADTs, ScopedTypeVariables, FunctionalDependencies, RecursiveDo, UndecidableInstances, GeneralizedNewtypeDeriving, StandaloneDeriving, EmptyDataDecls, NoMonomorphismRestriction, TypeOperators, DeriveDataTypeable, PackageImports, TemplateHaskell, LambdaCase, ConstraintKinds, CPP #-}
-module Reflex.Dom.Internal where
+module Reflex.Polymer.Internal where
 
 import Prelude hiding (mapM, mapM_, concat, sequence, sequence_)
 
-import Reflex.Dom.Internal.Foreign
-import Reflex.Dom.Class
+import Reflex.Polymer.Internal.Foreign
+import Reflex.Polymer.Class
 
 import GHCJS.DOM hiding (runWebGUI)
 import GHCJS.DOM.Types hiding (Widget, unWidget, Event)

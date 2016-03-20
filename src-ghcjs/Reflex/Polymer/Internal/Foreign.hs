@@ -1,5 +1,5 @@
 {-# LANGUAGE ForeignFunctionInterface, JavaScriptFFI #-}
-module Reflex.Dom.Internal.Foreign ( module Reflex.Dom.Internal.Foreign
+module Reflex.Polymer.Internal.Foreign ( module Reflex.Polymer.Internal.Foreign
                                    , runWebGUI
                                    ) where
 

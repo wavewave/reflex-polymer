@@ -1,6 +1,6 @@
 {-# LANGUAGE ForeignFunctionInterface, JavaScriptFFI, CPP #-}
 
-module Reflex.Dom.WebSocket.Foreign where
+module Reflex.Polymer.WebSocket.Foreign where
 
 import Prelude hiding (div, span, mapM, mapM_, concat, concatMap, all, sequence)
 

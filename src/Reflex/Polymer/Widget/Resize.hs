@@ -1,9 +1,9 @@
 {-# LANGUAGE RecursiveDo #-}
-module Reflex.Dom.Widget.Resize where
+module Reflex.Polymer.Widget.Resize where
 
 import Reflex
-import Reflex.Dom.Class
-import Reflex.Dom.Widget.Basic
+import Reflex.Polymer.Class
+import Reflex.Polymer.Widget.Basic
 
 import Control.Monad
 import Control.Monad.IO.Class
