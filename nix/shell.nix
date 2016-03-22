@@ -16,6 +16,29 @@ in this.nixpkgs.stdenv.mkDerivation {
     this.ghc.cabal2nix
   ] ++ builtins.map reflexEnv this.platforms;
 
-  shellHook = ""; 
+  shellHook = ''
+    cat << EOF > nginx.conf
+    events {
+      worker_connections 1024;
+    }
+
+    http {
+      include ${this.nixpkgs.nginx}/conf/mime.types;
+      server {
+        listen 8080;
+        location /app {
+          root ${polymer}/polymer;
+          autoindex on;
+        }
+        location /newtest.jsexe {
+          root $PWD/newtest;
+        }
+        location / {
+          root $PWD;
+        } 
+      }
+    }
+    EOF
+  '';
 
 } 
